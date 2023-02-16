@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/_header :: head(pageTitle='Step 3')">
+</head>
+
+
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h1>Step 3</h1>
+<h2>Go out and do it</h2>
+<img class="left" th:src="@{static/img/do-it.jpg}" alt="You got this">
+<p>
+    Now the plan is simple, short and actionable...that means no excuses. Look at the list, don't think, just do the first task of the five. Do you get
+    distracted or interrupted? Sure, it's our lives these days...get back to your list of today's tasks now and refocus.
+</p>
+<p>
+    WHAT TO DO: Keep going back to the plan and simply act on it. when completed, mark the task as done to help with tracing and organization.
+</p>
+<p>
+    Try this and stick to it for a week, and you will see the results!
+</p>
+<p>
+    Content taken from <a href="https://kyber.me/how-to-make-things-happen-in-3-easy-steps/"> here</a>
+</p>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

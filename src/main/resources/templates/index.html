@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+
+<head th:replace="fragments/_header :: head(pageTitle='Three Step Day')">
+</head>
+
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<img th:src="@{static/img/3steps.jpg}" alt="3 steps">
+<p>
+    Our lives are getting busier - and more interrupted - than ever. Keeping focus and getting those millions of tings done
+    is a big challenge. I studied a lot of books and techniques to solve this problem. I personally found them way to complicated and practically useless quite
+    immediately. I ended up designing a flow that has two main goals.
+</p>
+
+<h2> 1. </h2>
+<p>
+    Be extremely simple to understand, follow and implement for everyone.
+</p>
+<h2> 2. </h2>
+<p>
+    Make you feel accomplished at the end of each day, instead of constantly stressed out.
+</p>
+<p>
+    Content taken from <a href="https://kyber.me/how-to-make-things-happen-in-3-easy-steps/">here.</a>
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

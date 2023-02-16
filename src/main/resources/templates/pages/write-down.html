@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/_header :: head(pageTitle='Step 1')">
+</head>
+
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h1>Step 1</h1>
+<h2>Write what you want to do down</h2>
+<img class="left" th:src="@{static/img/write.png}" alt="Write it down">
+<p>
+    This is simple but fundamental: if you don't have a complete list of the things to do in one place,
+    there is no way you can get them done. Writing things down helps you see the big picture, pick priorities,
+    and, psychologically, makes you feel more in control and less stressed about forgetting things.
+</p>
+<p>
+    When listing items, always break down complex tasks into simpler intermediate, specific,
+    steps: don't write "Kitchen remodeling" or "Deliver school paper by next Friday" but rather
+    "Search for best dishwasher model online" or "Get book for research".
+</p>
+<p>
+    WHAT TO DO: Write down everything you need to do as soon as it comes up to your mind. Everything. Use a pad and paper or the notes section on your phone even.
+    Anything works as long as you get it down.
+</p>
+<p>
+    Content taken from <a href="https://kyber.me/how-to-make-things-happen-in-3-easy-steps/"> here</a>
+</p>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

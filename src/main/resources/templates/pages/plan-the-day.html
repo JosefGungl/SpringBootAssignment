@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head th:replace="fragments/_header :: head(pageTitle='Step 2')">
+</head>
+
+
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h1>Step 2</h1>
+<h2>Plan the day out</h2>
+<img class="left" th:src="@{static/img/plan.png}" alt="Plan the day">
+<p>
+    Now that you have a good list of things in your 'to-do' list, pick the important ones you want to focus on TODAY.
+    Not today and tomorrow, not this week, but just TODAY. It's important or else you could become overwhelmed by the list. Even if you know where
+    you want to start, you won't be able to finish them all. Not because you are unproductive or incapable, but because we have limited time in our busy days.
+    There is nothing we can do about that so let's plan around this issue.
+</p>
+<p>
+    Depending on the complexity, pick about five of them and try to get those done. The difference is that now you will more likely have your
+    list cleared at the end of the day. You will feel more accomplished and 'in control' instead of stressed out and hopeless.
+</p>
+<p>
+    WHAT TO DO: In the morning, pick a limited number of tasks to do TODAY. Keep all of this logged in a notebook or in the notes section of your phone.
+    The most important thing is to stay consistent and organized.
+</p>
+<p>
+    Content taken from <a href="https://kyber.me/how-to-make-things-happen-in-3-easy-steps/"> here</a>
+</p>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>
